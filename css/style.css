@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+body{
+    background-image: url(../img/fd.jpg) ;
+    background-position: center ;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+h1{
+    color: rgb(38, 148, 87);
+    text-align: center;
+    font-family: 'Shrikhand', cursive;
+    animation: Flutuar 3s infinite ;
+}
+h2{
+    color: rgb(98, 81, 129);
+    text-align: center;
+    font-family: 'Shrikhand', cursive;
+    animation: Flutuar 3s infinite ;
+}
+
+
+
+.center {
+    text-align:center ;
+    justify-content: center;
+    align-items: center;
+}
+
+#jogo2{
+    display: none;
+}
+
+#jogo3{
+    display: none;
+}
+button{
+    text-align: center;
+    font-family: 'Shrikhand', cursive;
+    size: 1,5rem;
+    color: rgb(92, 92, 236);
+    border: 1px solid green;
+  
+}
+
+
+button:hover{
+    background-color: aquamarine;
+    box-shadow: 0 8px 16px 0 rgba(21, 182, 21, 0.2), 0 6px 20px 0 rgba(12, 185, 128, 0.19);
+ 
+   
+
+}
+
+@keyframes Flutuar {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
